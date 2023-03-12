@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import HeroSection from '@/components/HeroSection'
+import SkillsSection from '@/components/SkillsSection'
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <main className='relative px-[20px]  md:px-[80px]'>
         <HeroSection />
+        <SkillsSection />
       </main>
     </>
   )
