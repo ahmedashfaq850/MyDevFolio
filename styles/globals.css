@@ -17,3 +17,85 @@ body {
 link {
   text-decoration: none;
 }
+
+::selection {
+  color: white;
+  background: #9ccff533;
+}
+
+.herodiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 5px; */
+  z-index: 999999;
+}
+
+.hero-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  /* identical to box height */
+  color: #afb7c5;
+}
+
+.heroHeading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+
+  line-height: 72px;
+  text-align: center;
+
+  background: linear-gradient(94.71deg, #3295e3 7.1%, #2bc7bf 97.07%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.heroDescription {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+
+  /* line-height: 35px; */
+  text-align: center;
+  color: #cad2e0;
+}
+
+.gradient1 {
+  position: absolute;
+  width: 261.81px;
+  height: 250px;
+  left: -132.69px;
+  top: 200px;
+  background: linear-gradient(
+    180deg,
+    #ed3683 0%,
+    rgba(43, 124, 219, 0.81) 100%
+  );
+  filter: blur(125px);
+  z-index: 0;
+}
+
+.gradient2 {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  right: 0px;
+  top: 200px;
+  background: linear-gradient(
+    180deg,
+    #ed3683 0%,
+    rgba(43, 124, 219, 0.81) 100%
+  );
+  filter: blur(125px);
+  z-index: 0;
+}
+
+.button-gradient {
+  background: linear-gradient(89.83deg, #7d6bd3 6.6%, #20a4c8 93.62%);
+}
