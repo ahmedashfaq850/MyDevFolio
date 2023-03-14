@@ -24,7 +24,7 @@ const ProjectSection = () => {
                 <div className='flex gap-6 flex-wrap'>
                   {item.tags.map((tag, idx) => (
                     <div key={idx} className='flex items-center gap-1'>
-                      <Image src="/tickicon.svg" width="25" height="25" alt="" />
+                      <Image src="/newtickIcon.png" width="25" height="25" alt="" />
                       <p className='text-[15px] md:text-[17px] text-white'>{tag}</p>
                     </div>
                   ))}
