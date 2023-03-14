@@ -7,7 +7,7 @@ const ProjectSection = () => {
   return (
     <div className='mt-[50px] mb-[50px] relative'>
       <h1 className='text-center text-white text-[30px] md:text-[48px] font-bold flex items-center gap-2 justify-center'>My Projects<Image className='inline-flex' src="/projectIcon.svg" width={50} height={50} alt="" /></h1>
-      <div className='flex justify-center mr-[145px] md:mr-[230px] mt-[5px]'><Image src="HEadingStripe.svg" width="63" height="13" alt="" /></div>
+      <div className='flex justify-center mr-[145px] md:mr-[230px] mt-[5px]'><Image src="/newstripe.png" width="63" height="13" alt="" /></div>
       {/* Project Display Area */}
       <div className='mt-[50px] flex flex-col items-center md:items-center gap-8 w-[100%]'>
         {projects.map((item, idx) => (
