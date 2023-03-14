@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -211,6 +212,7 @@ header {
   background: #131c2d;
   opacity: 0.81;
   border-radius: 8px;
+  overflow-x: hidden;
 }
 
 .contactButton {
@@ -221,7 +223,6 @@ header {
   font-size: 18px;
   font-weight: bold;
 }
-
 
 .footerline {
   margin-top: 100px;
