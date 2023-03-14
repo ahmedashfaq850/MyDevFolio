@@ -8,7 +8,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
-  overflow-x: hidden;
 }
 
 body {
@@ -132,7 +131,7 @@ header {
   filter: drop-shadow(0px 30px 53px rgba(0, 0, 0, 0.15));
 }
 
-/* .skill-gradient {
+.skill-gradient {
   position: absolute;
   width: 800px;
   height: 350px;
@@ -144,7 +143,7 @@ header {
   );
   filter: blur(125px);
   transform: rotate(7.35deg);
-} */
+}
 
 .line {
   margin-top: 100px;
@@ -188,7 +187,7 @@ header {
   filter: blur(125px);
 } */
 
-/* .contactGradient {
+.contactGradient {
   position: absolute;
   width: 958px;
   height: 70px;
@@ -202,7 +201,7 @@ header {
   );
   filter: blur(100px);
   z-index: 2;
-} */
+}
 
 .contactContainer {
   z-index: 200;
@@ -212,7 +211,6 @@ header {
   background: #131c2d;
   opacity: 0.81;
   border-radius: 8px;
-  overflow-x: hidden;
 }
 
 .contactButton {
@@ -223,6 +221,7 @@ header {
   font-size: 18px;
   font-weight: bold;
 }
+
 
 .footerline {
   margin-top: 100px;
