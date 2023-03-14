@@ -1,7 +1,10 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import HeroSection from '@/components/HeroSection'
 import SkillsSection from '@/components/SkillsSection'
+import ExperienceSection from '../components/ExperienceSection';
+import ProjectSection from '@/components/ProjectSection';
+import TestimonialSection from '@/components/TestimonialSection';
+import ContactSection from '@/components/ContactSection';
 
 
 
@@ -16,6 +19,10 @@ export default function Home() {
       <main className='relative px-[20px]  md:px-[80px]'>
         <HeroSection />
         <SkillsSection />
+        <ExperienceSection />
+        <ProjectSection />
+        <TestimonialSection />
+        <ContactSection/>
       </main>
     </>
   )

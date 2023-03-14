@@ -12,10 +12,16 @@
 
 body {
   background-color: #0e1624;
+  overflow-x: hidden;
 }
 
 link {
   text-decoration: none;
+}
+
+header {
+  z-index: 999999999999;
+  filter: drop-shadow(0px 30px 53px rgba(0, 0, 0, 0.15));
 }
 
 ::selection {
@@ -118,3 +124,108 @@ link {
 }
 
 /* Skills Section */
+
+.skill-box {
+  background: rgba(19, 28, 45, 0.81);
+  border-radius: 10px;
+  filter: drop-shadow(0px 30px 53px rgba(0, 0, 0, 0.15));
+}
+
+.skill-gradient {
+  position: absolute;
+  width: 800px;
+  height: 350px;
+
+  background: linear-gradient(
+    180deg,
+    #ed3683 0%,
+    rgba(43, 124, 219, 0.81) 100%
+  );
+  filter: blur(125px);
+  transform: rotate(7.35deg);
+}
+
+.line {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 100%;
+  border: 1px solid rgba(175, 183, 197, 0.2);
+  transform: rotate(-180deg);
+}
+
+/* Experience Section */
+.experience-container {
+  padding: 20px 30px;
+  width: 370px;
+  height: 300px;
+  background: rgba(19, 28, 45, 0.81);
+  box-shadow: 0px 30px 53px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  z-index: 999999;
+}
+
+.tag-container {
+  margin-top: 5px;
+  background: rgba(40, 49, 63, 0.8);
+  border-radius: 5px;
+  padding: 7px 10px;
+}
+
+/* .experience-gradient {
+  position: absolute;
+  width: 180px;
+  height: 200px;
+  right: -90px;
+  top: 90%;
+  z-index: 0;
+
+  background: linear-gradient(
+    180deg,
+    #ed3683 0%,
+    rgba(43, 124, 219, 0.81) 100%
+  );
+  filter: blur(125px);
+} */
+
+.contactGradient {
+  position: absolute;
+  width: 958px;
+  height: 70px;
+  left: 150px;
+  top: 0px;
+
+  background: linear-gradient(
+    93.07deg,
+    #cd5cf4 37.76%,
+    rgba(14, 22, 36, 0.6) 105.53%
+  );
+  filter: blur(100px);
+  z-index: 2;
+}
+
+.contactContainer {
+  z-index: 200;
+  width: 700px;
+  height: 135px;
+  filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
+  background: #131c2d;
+  opacity: 0.81;
+  border-radius: 8px;
+}
+
+.contactButton {
+  background: linear-gradient(95.26deg, #0ca0e6 19.74%, #2bc7bf 76.08%);
+  border-radius: 8px;
+  padding: 3px 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.footerline {
+  margin-top: 100px;
+  width: 100%;
+  border: 1px solid rgba(175, 183, 197, 0.2);
+  transform: rotate(-180deg);
+}
