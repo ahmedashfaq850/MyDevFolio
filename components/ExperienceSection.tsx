@@ -6,7 +6,7 @@ const ExperienceSection = () => {
   return (
     <div className='mt-[50px] mb-[50px]'>
       <h1 className='text-center text-white text-[30px] md:text-[48px] font-bold flex items-center gap-2 justify-center'>My Experience<Image className='inline-flex' src="/experienceLogo.svg" width={50} height={50} alt="" /></h1>
-      <div className='flex justify-center mr-[185px] md:mr-[300px] mt-[5px]'><Image src="HEadingStripe.svg" width="63" height="13" alt="" /></div>
+      <div className='flex justify-center mr-[185px] md:mr-[300px] mt-[5px]'><Image src="/newstripe.png" width="63" height="13" alt="" /></div>
       <div className='flex justify-center items-center mt-[80px] text-white'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
           {experience.map((item, idx) => (

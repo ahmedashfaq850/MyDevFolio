@@ -5,7 +5,7 @@ export const skills = [
   },
   {
     name: 'JavaScript',
-    image: '/JavaScript.svg',
+    image: '/newJavascriptlogo.png',
   },
   {
     name: 'Node JS',
