@@ -9,7 +9,7 @@ const SkillsSection = () => {
       <div className='flex justify-center mr-[225px] md:mr-[360px] mt-[5px]'><Image src="/newstripe.png" width="63" height="13" alt="" /></div>
       {/* Skills Display Area */}
       <div className='flex justify-center items-center mt-[60px]'>
-        <div className='skill-gradient md:left-[100px] md:top-[300px]'></div>
+        <div className='skill-gradient hidden md:block md:left-[100px] md:top-[300px]'></div>
         <div className='grid grid-cols-2 md:grid-cols-4	gap-12'>
           {skills.map((item, idx) => (
             <div key={idx} className='w-[130px] h-[110px] skill-box flex flex-col gap-3 justify-center items-center py-[10px] cursor-pointer'>
