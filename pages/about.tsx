@@ -4,7 +4,7 @@ import Image from 'next/image'
 const About = () => {
     return (
         <div className='flex justify-center'>
-            <div className='bg-[#131c2d] text-white aboutContainer opacity-[80%] w-[500px] h-[600px] mt-[80px]'>
+            <div className='bg-[#131c2d] text-white aboutContainer opacity-[80%] w-[500px] h-[600px] '>
                 <Image src="/myAvatar.png" alt="myimage" width={200} height={200} />
                 <div className='text-center'>
                     <h1 className='text-[25px] md:text-[40px] font-black mb-[5px]'>Ahmed Ashfaq</h1>
