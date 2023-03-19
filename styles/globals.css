@@ -246,4 +246,5 @@ header {
   margin: 20px;
   margin-top: 60px;
   gap: 20px;
+  justify-content: center;
 }
