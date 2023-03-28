@@ -13,7 +13,7 @@ const ProjectSection = () => {
         {projects.slice(0, 3).map((item, idx) => (
           <div key={idx} className='flex flex-col items-center md:items-start md:flex-row'>
             <Image className='ml-[25px] md:ml-0' src={item.image} width={400} height={410} alt="" />
-            <div className='flex flex-col gap-4 px-[33px] md:px[0px] mt-[-20px] md:mt-[10px]  md:w-[500px]'>
+            <div className='flex flex-col gap-4 px-[33px] md:px[0px] mt-[-20px] md:mt-[0px]  md:w-[500px]'>
               <h1 className='text-[20px] md:text-[30px] font-bold text-white'>{item.title}</h1>
               <p className='text-[15px] md:text-[20px] text-white'>{item.description}</p>
               <div className='flex flex-col gap-5 md:gap-8 mt-[15px]'>
