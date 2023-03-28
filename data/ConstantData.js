@@ -71,7 +71,7 @@ export const projects = [
     title: 'IMDB Clone',
     description:
       'A IMDB Clone built using Next js and styled with Tailwind CSS with dark mode and light mode and used imdb api for rendering the movies. The application is designed to  be completely responsive, ensuring a seamless user experience across all devices.',
-    image: '/imdbclone.svg',
+    image: '/imdbproject.svg',
     Githublink:
       'https://github.com/ahmedashfaq850/ImdbColne-using-Nextjs-13-and-TailwindCSS',
     Websitelink:
