@@ -64,7 +64,27 @@ export const experience = [
   },
 ]
 
+/* imbdbclone.svg */
+
 export const projects = [
+  {
+    title: 'IMDB Clone',
+    description:
+      'A IMDB Clone built using Next js and styled with Tailwind CSS with dark mode and light mode and used imdb api for rendering the movies. The application is designed to  be completely responsive, ensuring a seamless user experience across all devices.',
+    image: '/imbdbclone.svg',
+    Githublink:
+      'https://github.com/ahmedashfaq850/ImdbColne-using-Nextjs-13-and-TailwindCSS',
+    Websitelink:
+      'https://imdb-colne-using-nextjs-13-and-tailwind-css.vercel.app/',
+    tags: [
+      'Next js',
+      'React JS',
+      'Tailwind CSS',
+      'Dark Mode',
+      'Integrate APIS',
+    ],
+  },
+
   {
     title: 'Uber Eats Clone',
     description:
