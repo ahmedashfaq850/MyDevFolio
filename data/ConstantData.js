@@ -68,6 +68,17 @@ export const experience = [
 
 export const projects = [
   {
+    title: 'Uber Eats Clone',
+    description:
+      'A Uber Eats Clone  built using React JS and styled with Tailwind CSS. The application is designed to  be completely responsive, ensuring a seamless user experience across all devices.',
+    image: '/UberEatClone.svg',
+    Githublink: 'https://github.com/ahmedashfaq850/ubereats',
+    Websitelink:
+      'https://6384ec076260b02b86370952--magical-kitten-3599ea.netlify.app/',
+    tags: ['React JS', 'Tailwind CSS'],
+  },
+
+  {
     title: 'IMDB Clone',
     description:
       'A IMDB Clone built using Next js and styled with Tailwind CSS with dark mode and light mode and used imdb api for rendering the movies. The application is designed to  be completely responsive, ensuring a seamless user experience across all devices.',
@@ -83,17 +94,6 @@ export const projects = [
       'Dark Mode',
       'Integrate APIS',
     ],
-  },
-
-  {
-    title: 'Uber Eats Clone',
-    description:
-      'A Uber Eats Clone  built using React JS and styled with Tailwind CSS. The application is designed to  be completely responsive, ensuring a seamless user experience across all devices.',
-    image: '/UberEatClone.svg',
-    Githublink: 'https://github.com/ahmedashfaq850/ubereats',
-    Websitelink:
-      'https://6384ec076260b02b86370952--magical-kitten-3599ea.netlify.app/',
-    tags: ['React JS', 'Tailwind CSS'],
   },
 
   {
